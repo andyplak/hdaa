@@ -59,7 +59,7 @@ a:active {
 .toggle-menu-wrapper a:active,
 .site-primary-menu-responsive .primary-menu-responsive-close:hover,
 .hdaa-social-widget-area a:hover,
-.hdaa-social-widget-area a:visited {
+.hdaa-social-widget-area a:active {
 	color: #009784;
 }
 
