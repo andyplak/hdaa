@@ -24,13 +24,20 @@
 			<div class="row">
 				<div class="col-xxl-12">
 
-					<div class="site-header-inside">
+					<div class="site-header-inside row">
 
-						<div class="site-branding-wrapper">
+						<div class="col-md-8">
 							<?php the_custom_logo(); ?>
 						</div><!-- .site-branding-wrapper -->
 
-						<div class="toggle-menu-wrapper">
+						<?php if ( is_active_sidebar( 'hdaa-header-widget' ) ) : ?>
+						<div id="header-widget-area" class="col-md-4 hdaa-widget-area widget-area pull-right" role="complementary">
+							<?php dynamic_sidebar( 'hdaa-header-widget' ); ?>
+						</div>
+
+						<?php endif; ?>
+
+						<div class="col-md-12 toggle-menu-wrapper">
 							<a href="#main-navigation-responsive" title="<?php esc_attr_e( 'Menu', 'bezel' ); ?>" class="toggle-menu-control">
 								<span class="screen-reader-text"><?php esc_html_e( 'Menu', 'bezel' ); ?></span>
 							</a>
