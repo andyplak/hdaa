@@ -28,16 +28,6 @@
 
 						<div class="site-branding-wrapper">
 							<?php the_custom_logo(); ?>
-
-							<div class="site-branding">
-								<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h2>
-								<?php
-								$description = get_bloginfo( 'description', 'display' );
-								if ( $description || is_customize_preview() ) :
-								?>
-								<h3 class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></h3>
-								<?php endif; ?>
-							</div>
 						</div><!-- .site-branding-wrapper -->
 
 						<div class="toggle-menu-wrapper">
