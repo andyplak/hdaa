@@ -29,3 +29,8 @@ function hdaa_widgets_init() {
 
 }
 add_action( 'widgets_init', 'hdaa_widgets_init' );
+
+/**
+ * Remove Montserrat font
+ */
+wp_dequeue_style( 'bezel-fonts' );
