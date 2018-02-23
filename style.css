@@ -135,7 +135,7 @@ input[type="submit"],
 	font-size: 40px;
 }
 
-.home .entry-header-wrapper {
+.home .entry-data-wrapper-single .entry-header {
 	display: none;
 }
 
