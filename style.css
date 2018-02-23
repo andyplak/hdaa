@@ -138,7 +138,26 @@ input[type="submit"],
 .home .entry-header-wrapper {
 	display: none;
 }
+/** Side widgets */
 
+/* Recipes */
+aside.custom-post-type-recent-posts-3 {
+	background-color: #73a393;
+}
+
+/* Growing techniques */
+aside.custom-post-type-recent-posts-6 {
+	background-color: #d47f5e;
+}
+
+/* Advice */
+aside.custom-post-type-recent-posts-7 {
+	background-color: #a01a60;
+}
+
+aside.custom-post-type-recent-posts-3 h2, aside.custom-post-type-recent-posts-3 a {
+	color: white;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
