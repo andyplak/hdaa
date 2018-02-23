@@ -12,7 +12,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 
-			<section id="primary" class="content-area <?php bezel_layout_class( 'content' ); ?>">
+			<section id="primary" class="content-area col-xs-12">
 				<main id="main" class="site-main">
 
 				<?php if ( have_posts() ) : ?>
@@ -49,8 +49,6 @@ get_header(); ?>
 
 				</main><!-- #main -->
 			</section><!-- #primary -->
-
-			<?php get_sidebar(); ?>
 
 		</div><!-- .row -->
 	</div><!-- .container -->
