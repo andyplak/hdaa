@@ -94,12 +94,26 @@ input[type="submit"],
     background: #73A393;
 }
 
-
-.site-primary-menu-responsive,
-.site-info {
-	background: #424242;
+.site-footer {
+	padding-top: 20px;
 }
 
+.site-primary-menu-responsive,
+.site-footer,
+.site-info {
+	background: #424242;
+	color: #ddd;
+}
+
+.site-footer a,
+.site-footer a:visited {
+    color: #ddd;
+}
+
+.site-footer a:hover,
+.site-footer a:active {
+	color: #aaa;
+}
 
 #header-widget-area .search-form {
 	margin-top: 20px;

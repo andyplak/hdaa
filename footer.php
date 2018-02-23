@@ -11,6 +11,16 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+		<div class="container">
+			<div class="row">
+			<?php for ($i=1; $i < 4; $i++) : ?>
+				<?php if ( is_active_sidebar( 'hdaa-footer-'.$i ) ) : ?>
+					<?php dynamic_sidebar( 'hdaa-footer-'.$i ); ?>
+				<?php endif; ?>
+			<?php endfor; ?>
+			</div>
+		</div>
+
 		<?php
 		// Site Info
 		get_template_part( 'template-parts/site-info' );

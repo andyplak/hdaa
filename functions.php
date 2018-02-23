@@ -33,6 +33,42 @@ function hdaa_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+	register_sidebar( array(
+		'name'          => 'Footer One',
+		'id'            => 'hdaa-footer-1',
+		'before_widget' => '<div class="col-sm-6 col-md-3">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="footer-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => 'Footer Two',
+		'id'            => 'hdaa-footer-2',
+		'before_widget' => '<div class="col-sm-6 col-md-3">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="footer-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => 'Footer Three',
+		'id'            => 'hdaa-footer-3',
+		'before_widget' => '<div class="col-sm-6 col-md-3">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="footer-title">',
+		'after_title'   => '</h3>',
+	) );
+
+	register_sidebar( array(
+		'name'          => 'Footer Four',
+		'id'            => 'hdaa-footer-4',
+		'before_widget' => '<div class="col-sm-6 col-md-3">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="footer-title">',
+		'after_title'   => '</h3>',
+	) );
+
 }
 add_action( 'widgets_init', 'hdaa_widgets_init' );
 
