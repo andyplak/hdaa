@@ -34,3 +34,10 @@ add_action( 'widgets_init', 'hdaa_widgets_init' );
  * Remove Montserrat font
  */
 wp_dequeue_style( 'bezel-fonts' );
+
+// Remove the word 'archive' from archive listing pages
+function hdaa_remove_archive_from_title( $title ) {
+	$title = str_replace('Archive: ', '', $title);
+	return $title;
+}
+add_filter( 'get_the_archive_title', 'hdaa_remove_archive_from_title' );
