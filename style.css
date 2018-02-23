@@ -20,7 +20,17 @@ Text Domain:	 Bezel-child
 #header-social-widget-area {
 	position: absolute;
 	right: 10px;
-	top: 0;
+	top: -5px;
+	font-size: 40px;
+	line-height: 0;
+}
+
+#header-social-widget-area .widget-text {
+	line-height: 0;
+}
+
+#header-social-widget-area .fa {
+	font-size: 40px;
 }
 
 /* Small devices (tablets, 768px and up) */
