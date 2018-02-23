@@ -162,6 +162,16 @@ input[type="submit"],
 #custom-post-type-recent-posts-7 h2, #custom-post-type-recent-posts-7 a {
 	color: white;
 }
+
+/* Breadcrumbs */
+.trail-browse {
+	display: none;
+	text-transform: none;
+}
+
+.entry-meta ul > li:before {
+	content: '';
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
