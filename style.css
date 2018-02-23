@@ -24,6 +24,7 @@ body,
 .sf-menu > li > a,
 .sf-menu > li > a:visited {
 	color: #424242;
+	text-transform: inherit;
 }
 
 a,
@@ -135,7 +136,7 @@ input[type="submit"],
 	font-size: 40px;
 }
 
-.home .entry-header-wrapper {
+.home .entry-data-wrapper-single .entry-header {
 	display: none;
 }
 /** Side widgets */
