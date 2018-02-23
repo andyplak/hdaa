@@ -69,6 +69,11 @@
 						) ) );
 						?>
 
+						<?php if ( is_active_sidebar( 'hdaa-header-social-widget' ) ) : ?>
+						<div id="header-social-widget-area" class="hdaa-social-widget-area widget-area" role="complementary">
+							<?php dynamic_sidebar( 'hdaa-header-social-widget' ); ?>
+						</div>
+						<?php endif; ?>
 					</div><!-- .main-navigation-inside -->
 
 				</div><!-- .col-xxl-12 -->

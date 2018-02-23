@@ -18,5 +18,14 @@ function hdaa_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 
+	register_sidebar( array(
+		'name'          => 'H&DAA Header Social Icons Area',
+		'id'            => 'hdaa-header-social-widget',
+		'before_widget' => '<div class="hdaa-header-social-widget">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="hdaa-header-social-widget-title">',
+		'after_title'   => '</h2>',
+	) );
+
 }
 add_action( 'widgets_init', 'hdaa_widgets_init' );

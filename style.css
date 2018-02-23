@@ -17,7 +17,11 @@ Text Domain:	 Bezel-child
 	margin-top: 20px;
 }
 
-
+#header-social-widget-area {
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
