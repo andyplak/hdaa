@@ -30,7 +30,8 @@ body,
 a,
 a:visited,
 .entry-meta .posted-on a,
-.entry-meta .posted-on a:visited {
+.entry-meta .posted-on a:visited,
+.page-title span {
 	color: #d47f5e;
 }
 
