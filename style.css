@@ -164,8 +164,12 @@ input[type="submit"],
 }
 
 /* Breadcrumbs */
-.trail-browse {
+.breadcrumbs .trail-browse {
 	display: none;
+	text-transform: none;
+}
+
+.trail-items {
 	text-transform: none;
 }
 
