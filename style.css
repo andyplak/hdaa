@@ -24,6 +24,7 @@ body,
 .sf-menu > li > a,
 .sf-menu > li > a:visited {
 	color: #424242;
+	text-transform: inherit;
 }
 
 a,
