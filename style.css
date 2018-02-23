@@ -12,6 +12,13 @@ Text Domain:	 Bezel-child
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
+body,
+h1, h2, h3, h4, h5, h6,
+blockquote,
+.site-description,
+.widget .widget-title {
+	font-family: "Rubik", sans-serif;
+}
 
 #header-widget-area .search-form {
 	margin-top: 20px;

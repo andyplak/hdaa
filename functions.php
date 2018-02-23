@@ -1,10 +1,16 @@
 <?php
 
-function my_theme_enqueue_styles() {
+
+function hdaa_add_google_fonts() {
+	wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Rubik:400,700i', false );
+}
+add_action( 'wp_enqueue_scripts', 'hdaa_add_google_fonts' );
+
+
+function hdaa_enqueue_styles() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
 }
-
-add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'hdaa_enqueue_styles' );
 
 
 function hdaa_widgets_init() {
