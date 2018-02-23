@@ -135,6 +135,10 @@ input[type="submit"],
 	font-size: 40px;
 }
 
+.home .entry-header-wrapper {
+	display: none;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
