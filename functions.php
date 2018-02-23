@@ -120,15 +120,15 @@ function hdaa_shortcode_callback_func( $atts = array(), $content = '' ) {
 	$wp_query = new WP_Query(
 		array(
 			'post_type' => 'post',
+			'order' => 'DESC',
+			'post_status' => 'publish',
+			'posts_per_page' => 6,
 		)
 	);
 	// The Loop
 	if ( $wp_query->have_posts() ) {
-		// echo '<ul>';
-
 		while ( $wp_query->have_posts() ) {
 			$wp_query->the_post();
-			// echo '<li>' . get_the_title() . '</li>';
 			ob_start();
 			get_template_part( 'template-parts/content', get_post_format() );
 			$output .= ob_get_contents();
