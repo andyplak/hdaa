@@ -156,7 +156,9 @@ aside.custom-post-type-recent-posts-7 {
 	background-color: #a01a60;
 }
 
-aside.custom-post-type-recent-posts-3 h2, aside.custom-post-type-recent-posts-3 a {
+aside.custom-post-type-recent-posts-3 h2, aside.custom-post-type-recent-posts-3 a
+aside.custom-post-type-recent-posts-6 h2, aside.custom-post-type-recent-posts-6 a
+aside.custom-post-type-recent-posts-7 h2, aside.custom-post-type-recent-posts-7 a {
 	color: white;
 }
 /* Small devices (tablets, 768px and up) */
