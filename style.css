@@ -164,17 +164,20 @@ input[type="submit"],
 }
 
 /* Breadcrumbs */
-.breadcrumbs .trail-browse {
+.breadcrumb-trail.breadcrumbs .trail-browse {
 	display: none;
-	text-transform: none;
 }
 
 .trail-items {
 	text-transform: none;
 }
-
-.entry-meta ul > li:before {
+/* Remove fake bullet points */
+.breadcrumb-trail.breadcrumbs ul > li:before {
 	content: '';
+	padding: 0;
+}
+.breadcrumb-trail.breadcrumbs a, .breadcrumb-trail.breadcrumbs a:visited {
+	color: #d47f5e;
 }
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
