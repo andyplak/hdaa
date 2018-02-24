@@ -193,6 +193,11 @@ input[type="submit"],
 	font-size: 18px!important;
 }
 
+/* regular case for widget titles */
+.widget .widget-title {
+	text-transform: none;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
