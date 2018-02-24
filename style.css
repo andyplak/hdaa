@@ -179,6 +179,20 @@ input[type="submit"],
 .breadcrumb-trail.breadcrumbs a, .breadcrumb-trail.breadcrumbs a:visited {
 	color: #d47f5e;
 }
+
+/* Recent posts extended widget */
+.recent-posts-extended .rpwe-thumb {
+	border: none!important;
+    margin: 0;
+    padding: 0!important;
+}
+.recent-posts-extended .rpwe-block li {
+	border-bottom: none;
+}
+.recent-posts-extended .rpwe-block h3 {
+	font-size: 18px!important;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
