@@ -143,23 +143,23 @@ input[type="submit"],
 /** Side widgets */
 
 /* Recipes */
-#custom-post-type-recent-posts-3 {
+#rpwe_widget-11 {
 	background-color: #73a393;
 }
 
 /* Growing techniques */
-#custom-post-type-recent-posts-6 {
+#rpwe_widget-13 {
 	background-color: #d47f5e;
 }
 
 /* Advice */
-#custom-post-type-recent-posts-7 {
+#rpwe_widget-14 {
 	background-color: #a01a60;
 }
 
-#custom-post-type-recent-posts-3 h2, #custom-post-type-recent-posts-3 a,
-#custom-post-type-recent-posts-6 h2, #custom-post-type-recent-posts-6 a,
-#custom-post-type-recent-posts-7 h2, #custom-post-type-recent-posts-7 a {
+#rpwe_widget-11 h2, #rpwe_widget-11 a,
+#rpwe_widget-13 h2, #rpwe_widget-13 a,
+#rpwe_widget-14 h2, #rpwe_widget-14 a {
 	color: white;
 }
 
